@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product One Example",
+      "description": "this is description 1",
+      "price": 5,
+    },
+     {
+      "id": 2,
+      "title": "Product One Example",
+      "description": "this is description 1",
+      "price": 50,
+    },
+     {
+      "id": 3,
+      "title": "Product One Example",
+      "description": "this is description 1",
+      "price": 25,
+    },
+     {
+      "id": 4,
+      "title": "Product One Example",
+      "description": "this is description 1",
+      "price": 30,
+    },
+     {
+      "id": 5,
+      "title": "Product One Example",
+      "description": "this is description 1",
+      "price": 120,
+    },
+     {
+      "id": 6,
+      "title": "Product One Example",
+      "description": "this is description 1",
+      "price": 77,
+    },
+  ]
+}
