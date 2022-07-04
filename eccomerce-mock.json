@@ -8,33 +8,69 @@
       },
       {
          "id":2,
-         "title":"Product One Example",
+         "title":"Product Two Example",
          "description":"this is description 1",
          "price":50
       },
       {
          "id":3,
-         "title":"Product One Example",
+         "title":"Product Three Example",
          "description":"this is description 1",
          "price":25
       },
       {
          "id":4,
-         "title":"Product One Example",
+         "title":"Product Four Example",
          "description":"this is description 1",
          "price":30
       },
       {
          "id":5,
-         "title":"Product One Example",
+         "title":"Product Five Example",
          "description":"this is description 1",
          "price":120
       },
       {
          "id":6,
-         "title":"Product One Example",
+         "title":"Product Six Example",
          "description":"this is description 1",
          "price":77
-      }
+      },
+        {
+         "id":7,
+         "title":"Product Seven Example",
+         "description":"this is description 1",
+         "price":47
+      },
+        {
+         "id":8,
+         "title":"Product Eight Example",
+         "description":"this is description 1",
+         "price":33.40
+      },
+        {
+         "id":9,
+         "title":"Product Nine Example",
+         "description":"this is description 1",
+         "price":99.99
+      },
+        {
+         "id":10,
+         "title":"Product Ten Example",
+         "description":"this is description 1",
+         "price":11
+      },
+        {
+         "id":11,
+         "title":"Product Eeleven Example",
+         "description":"this is description 1",
+         "price":4
+      },
+        {
+         "id":12,
+         "title":"Product Twelve Example",
+         "description":"this is description 1",
+         "price":88
+      },
    ]
 }
