@@ -3,72 +3,84 @@
       {
          "id":1,
          "title":"Product One Example",
+         "slug":"First product",
          "description":"this is description 1",
          "price":5
       },
       {
          "id":2,
          "title":"Product Two Example",
+         "slug":"Second product",
          "description":"this is description 1",
          "price":50
       },
       {
          "id":3,
          "title":"Product Three Example",
+         "slug":"Third product",
          "description":"this is description 1",
          "price":25
       },
       {
          "id":4,
          "title":"Product Four Example",
+         "slug":"Fourth product",
          "description":"this is description 1",
          "price":30
       },
       {
          "id":5,
          "title":"Product Five Example",
+         "slug":"Fifth product",
          "description":"this is description 1",
          "price":120
       },
       {
          "id":6,
          "title":"Product Six Example",
+         "slug":"Sixth product",
          "description":"this is description 1",
          "price":77
       },
         {
          "id":7,
          "title":"Product Seven Example",
+         "slug":"Seventh product",
          "description":"this is description 1",
          "price":47
       },
         {
          "id":8,
          "title":"Product Eight Example",
+         "slug":"Eigth product", 
          "description":"this is description 1",
          "price":33.40
       },
         {
          "id":9,
          "title":"Product Nine Example",
+         "slug":"Ninth product",  
          "description":"this is description 1",
          "price":99.99
       },
         {
          "id":10,
          "title":"Product Ten Example",
+         "slug":"Tenth product", 
          "description":"this is description 1",
          "price":11
       },
         {
          "id":11,
          "title":"Product Eeleven Example",
+         "slug":"Eleventh product",  
          "description":"this is description 1",
          "price":4
       },
         {
          "id":12,
          "title":"Product Twelve Example",
+         "slug":"Twelveth product"
          "description":"this is description 1",
          "price":88
       }
