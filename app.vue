@@ -107,11 +107,8 @@ const jobsDescriptions = ref({
             </ul>
           </div>
           <div class="basis-2/5">
-            <nuxt-img
-              width="300"
-              height="300"
+            <img
               src="/selfie.jpg"
-              format="avif"
             />
           </div>
         </div>

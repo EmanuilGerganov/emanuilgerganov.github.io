@@ -16,7 +16,7 @@ const props = defineProps([
       class="order-first md:order-none md:row-[1/2] md:col-[1/8] h-full"
       :class="{ 'md:col-[6/-1]': imagePosition === 'right' }"
     >
-      <nuxt-img :src="projectImage" />
+      <img :src="projectImage" />
     </a>
 
     <div
