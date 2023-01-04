@@ -184,7 +184,7 @@ const jobsDescriptions = ref({
       </section>
     </main>
     <footer
-      class="flex justify-center items-center h-auto min-h-[70px] p-[15px] bg-slate-200"
+      class="flex justify-center items-center h-auto min-h-[70px] p-[15px] bg-slate-200 dark:text-white dark:bg-darkModeButton"
     >
       <div class="font-mono">
         Built by Emanuil Gerganov with Nuxt 3 + TailwindCSS @2022
