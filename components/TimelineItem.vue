@@ -12,12 +12,18 @@ const props = defineProps(["descriptions"]);
     <p class="font-mono text-[13px] mb-6">
       <slot name="date"></slot>
     </p>
-    <p
+    <!-- <p
       class="text-[18px] pl-[30px] mb-[10px] line-through[1.3] before:content-['▹'] dark:before:text-tertiary relative before:absolute before:left-0"
       v-for="description in descriptions"
       :key="description"
     >
-      {{ description }}
-    </p>
+      {{ description }} 
+    </p> -->
+    <!-- class="text-[18px] pl-[30px] mb-[10px] line-through[1.3]" -->
+    <ul>
+      <ListItem v-for="(description, index) in descriptions" :key="index">
+        {{ description }}
+      </ListItem>
+    </ul>
   </li>
 </template>

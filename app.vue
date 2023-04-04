@@ -97,56 +97,16 @@ const jobsDescriptions = ref({
               experiece with:
             </p>
             <ul class="font-mono text-base columns-2 mt-5">
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Javascript (ES6+)
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Vue 2 + 3
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                GraphQL
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Firebase
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Cypress
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Strapi
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                TailwindCSS
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Bootstrap 5
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Nuxt 2 + 3
-              </li>
-              <li
-                class="relative before:text-darkModeButton before:text-xl before:font-semibold before:content-['▹'] before:absolute before:left-0 before:-top-1 pl-5 mb-[10px]"
-              >
-                Wordpress
-              </li>
+              <ListItem> Javascript (ES6+) </ListItem>
+              <ListItem> Vue 2 + 3</ListItem>
+              <ListItem> Nuxt 2 + 3 </ListItem>
+              <ListItem> GraphQL </ListItem>
+              <ListItem> Firebase </ListItem>
+              <ListItem> Cypress </ListItem>
+              <ListItem> Strapi</ListItem>
+              <ListItem> Bootstrap 5 </ListItem>
+              <ListItem> TailwindCSS </ListItem>
+              <ListItem> Wordpress </ListItem>
             </ul>
           </div>
           <div
@@ -176,7 +136,7 @@ const jobsDescriptions = ref({
             >
             <template #date>January 2020 - January 2021</template>
           </TimelineItem>
-          <TimelineItem :descriptions="jobsDescriptions.softuni">
+          <TimelineItem :descriptions="jobsDescriptions.marketing">
             <template #heading
               >Digital marketing and SEO optimization
             </template>
