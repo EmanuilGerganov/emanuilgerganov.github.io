@@ -64,7 +64,8 @@ onClickOutside(target, (event) => {
             class="fill-sky-500"
           ></path>
         </svg>
-        <div>THEME</div>
+        <div v-if="isDark === true">Dark mode</div>
+        <div v-else>Light mode</div>
       </button>
       <!-- <div>
         <a href="#hero"
@@ -94,7 +95,7 @@ onClickOutside(target, (event) => {
         <button class="ml-7">
           <a
             class="leading-[1] bg-button dark:bg-darkModeButton w-max cursor-pointer dark:text-white px-[50px] py-[18px] mt-[10%]"
-            href="/"
+            href="https://docs.google.com/document/d/13Pu0f01NvE-kR-U09HukZnXH7GWPEXtDiYY9mmt6LZg/edit?usp=sharing"
             >RESUME</a
           >
         </button>
@@ -155,6 +156,7 @@ onClickOutside(target, (event) => {
   /* margin-bottom: 5px; */
 }
 #menu__toggle {
+  display: none;
   opacity: 0;
   left: -9999px;
   position: absolute;

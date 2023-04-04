@@ -32,7 +32,7 @@ const props = defineProps([
         </a>
       </h3>
       <div
-        class="text-[18px] text-white dark:text-darkModePar md:leading-[1.3] project-description py-5 md:p-6 bg-headline bg-opacity-90 dark:bg-opacity-100"
+        class="text-[18px] text-white dark:text-darkModePar md:leading-[1.3] project-description py-5 px-5 md:p-6 bg-headline bg-opacity-90 dark:bg-opacity-100"
       >
         <p>
           <slot name="project-description">description</slot>

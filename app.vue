@@ -7,25 +7,29 @@ const second = ref("test");
 const jobsDescriptions = ref({
   freelance: [
     "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-    "Create ecommerce, portofolios and personal pages for a variety of clients",
+    "Create e-commerce, portfolios and personal pages for a variety of clients",
   ],
   valdo: [
     "Work with a variety of different languages, platforms, frameworks, databases and content management systems such as JavaScript, Vue, Nuxt, Strapi, WordPress, MongoDB, GraphQL, MySQL, PostgreSQL",
     "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+    "Assessed UX and UI designs for technical feasibility.",
     "Use different databases - MySQL, PostgreSQL, MongoDB ",
     "Wrote end to end tests using Cypress",
     "Maintained and improved legacy code",
     "UI libraries - Vuetify, Quasar, Bootstrap, TailwindCSS",
     "Write and edit project documentation in Confluence",
+    "Track tasks and projects progress with JIRA using Scrum methodology.",
     "Git, gitlab and jira",
-    "Made 2 projects with Vue 2 + Nuxt 2, one with Strapi as a backend/CMS and the other with SAleor a python made GraphQL e-commerce platform product for handling stores",
+    "Made 2 projects with Vue 2 + Nuxt 2, one with Strapi as a backend/CMS and the other with Saleor a python made GraphQL e-commerce platform product for handling stores",
   ],
   softuni: [
     "Learning Programming Fundamentals",
-    "Introduciton to SQL and NOsql Databases",
+    "Introduction to SQL and noSQL databases",
     "Testing",
   ],
-  markering: [""],
+  markering: [
+    "Worked as a digital marketing specialist for multiple companies.My main role was to optimize pages SEO - on and off page + technical SEO.",
+  ],
 });
 </script>
 
@@ -35,11 +39,11 @@ const jobsDescriptions = ref({
   >
     <Navbar class="bg-darkerBg dark:bg-darkModeBg" />
     <main
-      class="max-w-[1600px] px-[25px] md:px-[50px] lg:px-[100px] xl:px-[150px] w-full min-h-screen mx-auto"
+      class="max-w-[1600px] px-[25px] md:px-[50px] lg:px-[100px] xl:px-[150px] w-full min-h-screen pt-36 mx-auto"
     >
       <section
         id="hero"
-        class="min-h-screen max-w-[1000px] mx-auto flex items-start justify-center flex-col"
+        class="max-w-[900px] mx-auto flex items-start justify-center flex-col"
       >
         <div class="font-mono ml-1 mb-[30px]">Hello, my name is</div>
         <div
@@ -61,14 +65,15 @@ const jobsDescriptions = ref({
         </div>
         <a
           class="resume font-mono bg-button dark:bg-darkModeButton dark:text-white text-headline mt-[50px]"
-          href="/"
-          >Download my Resume</a
+          href="https://docs.google.com/document/d/13Pu0f01NvE-kR-U09HukZnXH7GWPEXtDiYY9mmt6LZg/edit?usp=sharing"
+        >
+          Resume</a
         >
       </section>
-      <section id="about" class="max-w-[900px] mx-auto py-[100px]">
+      <section id="about" class="max-w-[900px] mx-auto pt-[100px]">
         <Heading>About me</Heading>
         <div class="flex flex-col md:flex-row gap-[50px] text-[20px]">
-          <div class="flex flex-col gap-[15px] basis-3/5">
+          <div class="flex flex-col gap-[15px]">
             <p>
               Hello! My name is Emanuil Gerganov and I enjoy creating things
               that live on the internet. I have 2+ years of web development
@@ -76,18 +81,16 @@ const jobsDescriptions = ref({
               developer teams. The pages I build are e-commerce, portfolios,
               blogs and business webpages.
             </p>
-
             <p>
               When working I always have in mind the end user experience, how he
               will see and interact with the end product. Always in a mood for
               learning new concepts and best practices or getting a deeper
               knowledge of the basics.
             </p>
-
             <p>
               I also have experience working with progressive web apps, SEO
-              optimization, web accessibility, multiple UI libraries,
-              databases,API's and other technologies.
+              optimization, web accessibility, multiple UI libraries, databases,
+              API's and other technologies.
             </p>
             <p>
               List of technologies I’ve been working with in projects and have
@@ -96,7 +99,7 @@ const jobsDescriptions = ref({
             <ul class="skills-list font-mono text-[13px] columns-2">
               <li class="relative pl-5 mb-[10px]">Javascript (ES6+)</li>
               <li class="relative pl-5 mb-[10px]">Vue 2 + 3</li>
-              <li class="relative pl-5 mb-[10px]">GrahpQl</li>
+              <li class="relative pl-5 mb-[10px]">GraphQL</li>
               <li class="relative pl-5 mb-[10px]">Firebase</li>
               <li class="relative pl-5 mb-[10px]">Cypress</li>
               <li class="relative pl-5 mb-[10px]">Strapi</li>
@@ -106,19 +109,17 @@ const jobsDescriptions = ref({
               <li class="relative pl-5 mb-[10px]">Wordpress</li>
             </ul>
           </div>
-          <div class="basis-2/5">
-            <img
-              src="/selfie.jpg"
-            />
+          <div class="order-first md:order-2">
+            <img class="rounded-2xl" src="/emanuil-gerganov.webp" />
           </div>
         </div>
       </section>
-      <section id="experience" class="py-[100px] max-w-[700px] mx-auto">
+      <section id="experience" class="pt-[100px] max-w-[900px] mx-auto">
         <Heading> Experience and studies </Heading>
         <ul>
           <TimelineItem :descriptions="jobsDescriptions.freelance">
-            <template #heading>Freelancing web developer</template>
-            <template #date>March 2022 - Present</template>
+            <template #heading>Freelance Web Developer</template>
+            <template #date>April 2022 - Present</template>
           </TimelineItem>
 
           <TimelineItem :descriptions="jobsDescriptions.valdo">
@@ -142,7 +143,7 @@ const jobsDescriptions = ref({
         </ul>
       </section>
 
-      <section id="work" class="max-w-[1000px] mx-auto">
+      <section id="work" class="max-w-[1000px] mx-auto pt-[100px]">
         <Heading> Some of the things I have built </Heading>
         <ProjectCopy
           class="sm:text-right"
@@ -153,7 +154,7 @@ const jobsDescriptions = ref({
         >
           <template #project-name>Eccomerce App </template>
           <template #project-description
-            >Minimalistic ecommerce page made with Vue 2, Nuxt 2 and
+            >Minimalistic e-commerce page made with Vue 2, Nuxt 2 and
             TailwindCSS. It has the basic pages needed for e-shop, optimized for
             SEO with JSON-LD . Fetching product items from Rest API JSON. Cart
             persisting products in Local Storage.
@@ -168,7 +169,7 @@ const jobsDescriptions = ref({
         >
           <template #project-name>To do App </template>
           <template #project-description
-            >Simple ToDo App made with Vue 3, Vite, TailwindCSS and Firabase as
+            >Simple To-Do App made with Vue 3, Vite, TailwindCSS and Firebase as
             backend. Implemented user authentication with OAuth using different
             providers - Google, Facebook and Github. Persists tasks in Firestore
             database.
@@ -176,7 +177,7 @@ const jobsDescriptions = ref({
         </ProjectCopy>
       </section>
 
-      <section id="contact" class="max-w-[600px] mx-auto py-[100px]">
+      <section id="contact" class="max-w-[600px] mx-auto pt-[50px]">
         <Heading> Hire me or learn more about me</Heading>
         <p class="text-[20px] leading-[1.3] text-center">
           Open for new opportunities. Contact me by email, social media,
@@ -184,12 +185,38 @@ const jobsDescriptions = ref({
       </section>
     </main>
     <footer
-      class="flex justify-center items-center h-auto min-h-[70px] p-[15px] bg-slate-200 dark:text-white dark:bg-darkModeButton"
+      class="flex justify-center items-center h-auto min-h-[70px] mt-[100px] p-[15px] bg-slate-200 dark:text-white dark:bg-darkModeButton"
     >
       <div class="font-mono">
-        Built by Emanuil Gerganov with Nuxt 3 + TailwindCSS @2022
+        Built by Emanuil Gerganov with Nuxt 3 + TailwindCSS @2023
       </div>
     </footer>
+    <div class="fixed bottom-0 justify-evenly"></div>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/emanuil-gerganov/">
+          <svg
+            height="12"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-linkedin"
+          >
+            <title>LinkedIn</title>
+            <path
+              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+            ></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle></svg></a>
+      </li>
+    </ul>
+    <!-- <div class="sticky bottom-0 mr-5 ">SOCIAL MEDIA LINKS</div>
+    <div class="sticky bottom-0 mr-5 ">email</div> -->
   </div>
 </template>
 
