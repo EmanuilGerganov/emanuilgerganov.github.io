@@ -166,7 +166,7 @@ const jobsDescriptions = ref({
         </ProjectCopy>
         <ProjectCopy
           class="sm:text-left"
-          project-image="/todo.png"
+          project-image="/to-do-crop.png"
           imagePosition="right"
           project-url="https://emanuilgerganov.github.io/to-do/"
           :items="['Vue 3', 'Firebase', 'TailwindCSS']"
