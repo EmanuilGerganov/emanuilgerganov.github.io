@@ -4,7 +4,7 @@ const props = defineProps(["descriptions"]);
 
 <template>
   <li
-    class="border-l-2 py-3 pl-5 dark:border-l-tertiary border-l-darkModeButton border-solid flex flex-col"
+    class="border-l-2 py-3 pl-5  border-l-darkBlue dark:border-l-tertiary border-solid flex flex-col"
   >
     <h3 class="text-[22px] leading-[1.3] font-medium">
       <slot name="heading"></slot>
@@ -12,14 +12,6 @@ const props = defineProps(["descriptions"]);
     <p class="font-mono text-[13px] mb-6">
       <slot name="date"></slot>
     </p>
-    <!-- <p
-      class="text-[18px] pl-[30px] mb-[10px] line-through[1.3] before:content-['▹'] dark:before:text-tertiary relative before:absolute before:left-0"
-      v-for="description in descriptions"
-      :key="description"
-    >
-      {{ description }} 
-    </p> -->
-    <!-- class="text-[18px] pl-[30px] mb-[10px] line-through[1.3]" -->
     <ul>
       <ListItem v-for="(description, index) in descriptions" :key="index">
         {{ description }}

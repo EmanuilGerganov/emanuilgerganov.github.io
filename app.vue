@@ -10,25 +10,27 @@ const jobsDescriptions = ref({
     "Create e-commerce, portfolios and personal pages for a variety of clients",
   ],
   valdo: [
-    "Work with a variety of different languages, platforms, frameworks, databases and content management systems such as JavaScript, Vue, Nuxt, Strapi, WordPress, MongoDB, GraphQL, MySQL, PostgreSQL",
+    "Work with a variety of different languages, platforms, frameworks, databases and content management systems such as JavaScript, Vue, Nuxt, Strapi, Saleor, WordPress, MongoDB, GraphQL, MySQL, PostgreSQL",
     "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-    "Assessed UX and UI designs for technical feasibility.",
+    "Assess UX and UI designs for technical feasibility",
     "Use different databases - MySQL, PostgreSQL, MongoDB ",
     "Wrote end to end tests using Cypress",
-    "Maintained and improved legacy code",
+    "Maintain and improv legacy code",
     "UI libraries - Vuetify, Quasar, Bootstrap, TailwindCSS, PrimeVue",
-    "Write and edit project documentation in Confluence",
     "Track tasks and projects progress with JIRA using Scrum methodology.",
+    "Write and edit project documentation in Confluence",
     "Git, Gitlab and Jira",
-    "Made 2 projects with Vue 2 + Nuxt 2, one with Strapi as a backend/CMS and the other with Saleor a python made GraphQL e-commerce platform product for handling stores",
   ],
   softuni: [
     "Learning Programming Fundamentals",
+    "Learning Data Structures",
     "Introduction to SQL and noSQL databases",
+    "JS frameworks",
     "Testing",
   ],
-  markering: [
-    "Worked as a digital marketing specialist for multiple companies.My main role was to optimize pages SEO - on and off page + technical SEO.",
+  marketing: [
+    "Digital marketing specialist for multiple companies",
+    "Main role was to optimize pages SEO - on and off page + technical SEO.",
   ],
 });
 </script>
@@ -156,7 +158,7 @@ const jobsDescriptions = ref({
         >
           <template #project-name>E-commerce App </template>
           <template #project-description
-            >Minimalistic e-commerce page made with Vue 2, Nuxt 2 and
+            >Minimalistic e-commerce website made with Vue 2, Nuxt 2 and
             TailwindCSS. It has the basic pages needed for e-shop, optimized for
             SEO with JSON-LD . Fetching product items from Rest API JSON. Cart
             persisting products in Local Storage.
@@ -185,7 +187,7 @@ const jobsDescriptions = ref({
           Open for new opportunities. Contact me by email or social media.
         </p>
 
-        <div class="flex justify-center gap-12 items-center">
+        <div class="flex justify-center gap-12 items-center mt-10">
           <a
             href="https://twitter.com/GerganovEmanuil"
             aria-label="Twitter"
@@ -209,6 +211,25 @@ const jobsDescriptions = ref({
                 d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
               ></path></svg
           ></a>
+          <a href="mailto: emanuilgerganov@gmail.com">
+            <svg
+              height="32"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 32 32"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              data-name="Layer 2"
+            >
+              <path
+                d="M29.94 6.68a1 1 0 0 0-.09-.18.94.94 0 0 0-.05-.11 1.6 1.6 0 0 0-.31-.24l-.17-.06H2.94a1 1 0 0 0-.21 0l-.17.06a1 1 0 0 0-.15.1 1 1 0 0 0-.15.13.93.93 0 0 0-.05.11.79.79 0 0 0-.21.39A.93.93 0 0 0 2 7v18a1 1 0 0 0 1 1h26a1 1 0 0 0 1-1V7a.93.93 0 0 0 0-.12 1 1 0 0 0-.06-.2ZM26.06 8 16 15.74 5.94 8ZM28 24H4V9l11.39 8.76a1 1 0 0 0 1.22 0L28 9Z"
+              >
+                <title>Email</title>
+              </path>
+            </svg>
+          </a>
+
           <a href="https://www.linkedin.com/in/emanuil-gerganov/">
             <svg
               height="32"
@@ -234,7 +255,7 @@ const jobsDescriptions = ref({
 
     <footer>
       <div
-        class="flex text-center justify-center items-center h-auto min-h-[70px] mt-[100px] p-[15px] bg-slate-200 dark:text-white dark:bg-darkModeButton font-mono"
+        class="flex text-center justify-center items-center text-black h-auto min-h-[70px] mt-[100px] p-[15px] bg-lightGray dark:bg-darkModeButton font-mono"
       >
         Built by Emanuil Gerganov with Nuxt 3 + TailwindCSS @2023
       </div>
